@@ -13,10 +13,11 @@
 
 SELECT e.eventID, t.scientificName, anl_seq.readCount/a.sampleSizeValue as relativeAbundanceInSample
 FROM Event e JOIN geneticAnalysis a ON e.eventID = a.eventID 
+JOIN geneticAssay gas ON a.geneticAssayID = gas.geneticAssayID 
 JOIN geneticAnalysisSequence anl_seq ON a.geneticAnalysisID = anl_seq.geneticAnalysisID 
 JOIN geneticSequence s ON anl_seq.geneticSequenceID = s.geneticSequenceID 
 JOIN Identification i on s.geneticSequenceID = i.identificationBasedOnGeneticSequenceID
 JOIN Taxon t on i.taxonID = t.taxonID
-WHERE a.pcr_primer_fwd = "CCTACGGGNGGCWGCAG" AND a.pcr_primer_rev = "GACTACHVGGGTATCTAATCC" 
+WHERE gas.pcr_primer_fwd = "CCTACGGGNGGCWGCAG" AND gas.pcr_primer_rev = "GACTACHVGGGTATCTAATCC" 
 HAVING relative_abundance > 0.01
 ORDER BY e.id, relative_abundance DESC
