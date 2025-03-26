@@ -67,7 +67,7 @@
         </mxCell>
         <mxCell id="aqUu65AV-6JLtwwe9ziM-37" value="many" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="aqUu65AV-6JLtwwe9ziM-36" vertex="1" connectable="0">
           <mxGeometry x="-0.5353" y="1" relative="1" as="geometry">
-            <mxPoint x="28" y="-20" as="offset" />
+            <mxPoint x="28" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aqUu65AV-6JLtwwe9ziM-38" value="one" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="aqUu65AV-6JLtwwe9ziM-36" vertex="1" connectable="0">
