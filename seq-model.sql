@@ -1,4 +1,4 @@
-# given a pair of primers, find the relative abundance of each taxon in each sample
+-- Given a pair of primers, find the relative abundance of each taxon in each sample
 -- 1. get the relative abundance of each taxon in each sample
 -- 2. filter out the taxon with relative abundance less than 0.01
 -- 3. order the result by sample id and relative abundance in descending order
