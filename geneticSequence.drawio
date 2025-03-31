@@ -137,7 +137,7 @@
             <mxRectangle width="141" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qUH4pPLVqTFTwaiTXcvp-120" value="sequenceReferenceDatabase (otu_db)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" parent="qUH4pPLVqTFTwaiTXcvp-118" vertex="1">
+        <mxCell id="qUH4pPLVqTFTwaiTXcvp-120" value="&lt;span style=&quot;font-size:12.0pt;font-family:&amp;quot;Aptos&amp;quot;,sans-serif;&lt;br/&gt;mso-fareast-font-family:Aptos;mso-fareast-theme-font:minor-latin;mso-bidi-font-family:&lt;br/&gt;Aptos;mso-font-kerning:0pt;mso-ligatures:none;mso-ansi-language:DA;mso-fareast-language:&lt;br/&gt;DA;mso-bidi-language:AR-SA&quot;&gt;identificationReferences&lt;/span&gt; (otu_db)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" parent="qUH4pPLVqTFTwaiTXcvp-118" vertex="1">
           <mxGeometry x="141" width="499" height="30" as="geometry">
             <mxRectangle width="499" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -150,7 +150,7 @@
             <mxRectangle width="141" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qp3W3nuj6A5tC4hSGvUT-3" value="taxonAssignmentApproach (otu_class_appr, otu_seq_comp_appr)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="Qp3W3nuj6A5tC4hSGvUT-1">
+        <mxCell id="Qp3W3nuj6A5tC4hSGvUT-3" value="taxonAssignmentMethod (otu_class_appr, otu_seq_comp_appr)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="Qp3W3nuj6A5tC4hSGvUT-1">
           <mxGeometry x="141" width="499" height="30" as="geometry">
             <mxRectangle width="499" height="30" as="alternateBounds" />
           </mxGeometry>
